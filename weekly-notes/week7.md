@@ -2,7 +2,7 @@
 Please note that this is the required layout for the weekly notes.
 
 ## Overview:
-**When**: 2/27
+**When**: 3/03 - First meeting
 **Duration**: 1 hr 20 min
 **Where**: At syeds apartment
 
