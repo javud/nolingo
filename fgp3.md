@@ -8,3 +8,16 @@ We will communicate via iMessages and Discord. Our working hours are M-F 10-9PM.
 
 # Roles
 Syed will be the Project Lead; Fatima will be the backend developer; Javid will be the front-end developer.
+
+# Fatima's Brainstorming
+Screen time:
+Chicago halal restaurants
+Minimized news page with summarized notifications
+UIC Student:
+App for favorited bus/train stops
+List all events happening on campus and fit them around schedule too, DS: dict
+Culturally relevant:
+language learning website, data structures: dict, map, heap tree
+Chicago events/plays/art shows consolidated into one app
+
+Voted for: language app
