@@ -1,0 +1,339 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f4f4f4;
+  overscroll-behavior: none;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #48009b, #007bff);
+  color: white;
+  padding: 15px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease infinite;
+}
+
+/* Keyframes for the background color animation */
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a {
+  color: rgb(198, 198, 198);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 5px;
+  transition: 0.3s;
+}
+
+.nav-links a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.nav-links .selected {
+  color: white;
+}
+
+.nav-links a:hover::before,
+.nav-links .selected::before {
+  width: 100%;
+  transform: scaleX(1);
+  color: white;
+}
+
+.cta-button {
+  background: linear-gradient(90deg, #48009b, #007bff);
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease infinite;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.cta-button:hover {
+  transform: scale(1.1);
+}
+
+.cta-button-2 {
+  color: white;
+  background-color: #c0c0c0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+  display: block;
+  margin: 10px auto;
+}
+
+.cta-button-2:hover {
+  transform: scale(1.1);
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+/* -------------------- */
+/* 🎯 Lessons & Practice */
+/* -------------------- */
+
+/* Lessons & Practice Page Styling */
+.page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.page.practice {
+  min-height: 350px;
+  position: relative;
+}
+
+.wordTranslate {
+  background: linear-gradient(90deg, #48009b, #007bff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.correct-count {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 20px;
+  background-color: rgb(179, 255, 179);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Dropdown Styling */
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f8f9fa;
+  transition: 0.3s;
+}
+
+select:hover,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  background: #e9ecef;
+}
+
+/* Word List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 12px;
+  margin: 6px 0;
+  background: #f8f9fa;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+ul li:hover {
+  background: #e9ecef;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/* Word and Translation */
+.word {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.translation {
+  color: #333;
+  font-style: italic;
+}
+
+/* Search Bar */
+input {
+  width: 85%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Autocomplete List */
+.autocomplete-list {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  text-align: left;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.autocomplete-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.autocomplete-list li:hover {
+  background: #f1f1f1;
+}
+
+/* Animation for Smooth List Items */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ul li {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.word-display {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.feedback {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.incorrect {
+  color: red;
+}
+
+.toggle-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.toggle-button:hover {
+  background: #0056b3;
+}
+
+.practice-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.word-prompt {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feedback {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer {
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
