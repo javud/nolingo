@@ -8,46 +8,66 @@ function Practice() {
   const [loading, setLoading] = useState(false);
   const [showSkip, setShowSkip] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
+  const [skipCount, setSkipCount] = useState(0);
+  const [wordIndex, setWordIndex] = useState(0);
 
   useEffect(() => {
-    fetchNextWord();
-  }, []);
+    const fetchNextWord = async () => {
+        setLoading(true);
+        try {
+            const response = await fetch(`https://mou1234.pythonanywhere.com/get_translation?word=next&i=${wordIndex}`);
+            const data = await response.json();
+        
+            if (response.ok) {
+                setCurrentWord(data.translation ? data.translation.word : null);
+                setTranslation(data.translation ? data.translation.translation : "");
+                setFeedback("");
+                setUserGuess("");
+            } else { // end of word list/error
+                setCurrentWord(null);
+                setTranslation("");
+            }
+        } catch (error) {
+            console.error("Error fetching word:", error);
+            setCurrentWord(null);
+            setTranslation("");
+        }
+        setLoading(false);
+        setShowSkip(false);
+        };
+        fetchNextWord();
+    }, [wordIndex]);
 
-  const fetchNextWord = async () => {
-    setLoading(true);
-    try {
-      const response = await fetch("http://127.0.0.1:5001/get_translation?word=next");
-      const data = await response.json();
-
-      if (response.ok) {
-        setCurrentWord(data.translation ? data.translation.word : null);
-        setTranslation(data.translation ? data.translation.translation : "");
-        setFeedback("");
-        setUserGuess("");
-      }
-    } catch (error) {
-      console.error("Error fetching word:", error);
-    }
+  const reset = () => {
+    setCurrentWord(null);
+    setTranslation("");
+    setUserGuess("");
+    setFeedback("");
     setLoading(false);
-    setShowSkip(false)
+    setShowSkip(false);
+    setCorrectCount(0);
+    setSkipCount(0);
+    setWordIndex(0);
   };
 
   const checkAnswer = () => {
     const multTranslations = translation.toLowerCase().split(",");
     const containsExactMatch = multTranslations.some(str => str.trim() === userGuess.trim().toLowerCase());
+  
     if (containsExactMatch) {
-      setFeedback("✅ Correct!");
-      setCorrectCount(correctCount + 1);
-      setTimeout(fetchNextWord, 750);
+        setFeedback("✅ Correct!");
+        setCorrectCount(prevCount => prevCount + 1);
+        setTimeout(() => setWordIndex((prevIndex) => prevIndex + 1), 300); // fetch next word
     } else {
-      setFeedback("❌ Incorrect, try again.");
-      setShowSkip(true);
+        setFeedback("❌ Incorrect, try again.");
+        setShowSkip(true);
     }
   };
 
   const skipCheck = () => {
       setFeedback("Correct Answer: " + translation);
-      setTimeout(fetchNextWord, 750);
+      setSkipCount(prevCount => prevCount + 1);
+      setTimeout(() => setWordIndex((prevIndex) => prevIndex + 1), 500);
   };
 
   return (
@@ -76,7 +96,12 @@ function Practice() {
           {feedback && <p className="feedback">{feedback}</p>}
         </>
       ) : (
-        <p>No words available.</p>
+        <>
+        <p>🥳 You're all caught up!</p>
+        <p>Words completed: {correctCount}</p>
+        <p>Words skipped: {skipCount}</p>
+        <button className="cta-button" onClick={reset}>Review again</button>
+        </>
       )}
     </div>
   );

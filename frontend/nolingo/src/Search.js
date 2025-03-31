@@ -13,7 +13,7 @@ function Practice() {
     }
 
     try {
-      const response = await fetch(`http://127.0.0.1:5001/suggestions?prefix=${prefix}`);
+      const response = await fetch(`https://mou1234.pythonanywhere.com/suggestions?prefix=${prefix}`);
       const data = await response.json();
       setSuggestions(data.suggestions || []);
     } catch {
@@ -30,7 +30,7 @@ function Practice() {
     }
 
     try {
-      const response = await fetch(`http://127.0.0.1:5001/search?word=${word}`);
+      const response = await fetch(`https://mou1234.pythonanywhere.com/search?word=${word}`);
       const data = await response.json();
 
       if (response.ok) {

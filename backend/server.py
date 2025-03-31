@@ -208,19 +208,16 @@ def suggestions():
 
 @app.route('/get_translation', methods=['GET'])
 def get_translation():
-    word = request.args.get('word', '').lower()
+    word_param = request.args.get('word', '')
+    index = int(request.args.get('i', -1))  # Get the index from the request
 
-    if word == "next":
-        if pq.pq:
-            next_word = pq.pop()  # Get the next word in priority order
-            translation = pq.get_translation(next_word)
-            return jsonify({"translation": {"word": next_word, "translation": translation}})
-        return jsonify({"error": "No more words available"}), 404
-
-    translation = pq.get_translation(word)
-    if translation:
-        return jsonify({"translation": {"word": word, "translation": translation}})
-    return jsonify({"error": "Translation not found"}), 404
+    # Check if 'word' is "next", and fetch the word at the provided index
+    if word_param == "next" and 0 <= index < len(pq.pq):
+        spanish_word = pq.pq[index][-1]  # Get the word at the given index from the priority queue
+        english_translation = pq.get_translation(spanish_word)
+        return jsonify({"translation": {"word": spanish_word, "translation": english_translation}})
+    
+    return jsonify({"error": "Invalid word or index"}), 404
 
 @app.route("/category")
 def get_category():

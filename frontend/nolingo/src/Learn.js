@@ -6,7 +6,7 @@ function Lessons() {
   const [words, setWords] = useState([]);
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:5001/category?name=${selectedCategory}`)
+    fetch(`https://mou1234.pythonanywhere.com/category?name=${selectedCategory}`)
       .then((res) => res.json())
       .then((data) => setWords(data.words || []))
       .catch(() => setWords([]));
