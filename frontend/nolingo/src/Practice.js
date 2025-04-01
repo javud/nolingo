@@ -5,7 +5,6 @@ function Practice() {
   const [translation, setTranslation] = useState("");
   const [userGuess, setUserGuess] = useState("");
   const [feedback, setFeedback] = useState("");
-  const [loading, setLoading] = useState(false);
   const [showSkip, setShowSkip] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [skipCount, setSkipCount] = useState(0);
@@ -13,7 +12,6 @@ function Practice() {
 
   useEffect(() => {
     const fetchNextWord = async () => {
-        setLoading(true);
         try {
             const response = await fetch(`https://mou1234.pythonanywhere.com/get_translation?word=next&i=${wordIndex}`);
             const data = await response.json();
@@ -32,7 +30,6 @@ function Practice() {
             setCurrentWord(null);
             setTranslation("");
         }
-        setLoading(false);
         setShowSkip(false);
         };
         fetchNextWord();
@@ -43,7 +40,6 @@ function Practice() {
     setTranslation("");
     setUserGuess("");
     setFeedback("");
-    setLoading(false);
     setShowSkip(false);
     setCorrectCount(0);
     setSkipCount(0);
@@ -73,12 +69,11 @@ function Practice() {
   return (
     <div className="page practice">
       <h2>Practice Vocabulary</h2>
-      {correctCount > 0 && <p className="correct-count">✅ {correctCount}</p>}
-      {loading ? (
-        <p>Loading...</p>
-      ) : currentWord ? (
+      {correctCount > 0 && <p className="correct-count" key={correctCount}>✅ {correctCount}</p>}
+      {currentWord ? (
         <>
-          <p className="word-display">Translate: <span className="wordTranslate">{currentWord}</span></p>
+          <p>Translate the following to English:</p>
+          <div className="wordTranslate" key={currentWord}>{currentWord}</div>
           <input
             autoFocus
             type="text"
