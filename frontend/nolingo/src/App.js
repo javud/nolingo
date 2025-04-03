@@ -3,7 +3,6 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
 import Practice from "./Practice";
 import Learn from "./Learn";
-import Search from "./Search";
 
 function App() {
   return (
@@ -49,18 +48,6 @@ function App() {
                   </CSSTransition>
                 }
               />
-              <Route
-                path="/search"
-                element={
-                  <CSSTransition
-                    key="search"
-                    classNames="page-transition"
-                    timeout={300}
-                  >
-                    <Search />
-                  </CSSTransition>
-                }
-              />
             </Routes>
           </TransitionGroup>
         </div>
@@ -90,9 +77,6 @@ function NavBar() {
           </NavLink>
           <NavLink to="/practice" className={({ isActive }) => (isActive ? "selected" : "")}>
             Practice
-          </NavLink>
-          <NavLink to="/search" className={({ isActive }) => (isActive ? "selected" : "")}>
-            Search
           </NavLink>
         </div>
       </div>

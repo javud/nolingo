@@ -1,0 +1,83 @@
+{
+    "en": [
+      ["Estoy en casa.", "I am at home."],
+      ["El libro está en la mesa.", "The book is on the table."],
+      ["Vivo en España.", "I live in Spain."],
+      ["Estamos en el parque.", "We are in the park."],
+      ["El gato está en la ventana.", "The cat is on the window."],
+      ["Trabajo en una oficina.", "I work in an office."]
+    ],
+    "sobre": [
+      ["El vaso está sobre la mesa.", "The glass is on the table."],
+      ["Hablamos sobre el medio ambiente.", "We talk about the environment."],
+      ["El cuadro está sobre la chimenea.", "The painting is above the fireplace."],
+      ["El perro está sobre la alfombra.", "The dog is on the carpet."],
+      ["¿Qué opinas sobre este tema?", "What do you think about this topic?"],
+      ["Tengo información sobre el proyecto.", "I have information about the project."]
+    ],
+    "bajo": [
+      ["El perro está bajo la mesa.", "The dog is under the table."],
+      ["El libro está bajo la silla.", "The book is under the chair."],
+      ["Viven bajo el mar.", "They live under the sea."],
+      ["La lámpara está bajo la estantería.", "The lamp is under the shelf."],
+      ["Es difícil trabajar bajo presión.", "It's hard to work under pressure."],
+      ["El sol brilla bajo el cielo azul.", "The sun shines under the blue sky."]
+    ],
+    "cerca de": [
+      ["Mi casa está cerca de la escuela.", "My house is near the school."],
+      ["La tienda está cerca de la estación.", "The store is near the station."],
+      ["Vivimos cerca de un parque.", "We live near a park."],
+      ["El restaurante está cerca de aquí.", "The restaurant is near here."],
+      ["El hospital está cerca de mi trabajo.", "The hospital is near my work."],
+      ["Hay una tienda cerca de la plaza.", "There is a store near the square."]
+    ],
+    "lejos de": [
+      ["Mi abuela vive lejos de la ciudad.", "My grandmother lives far from the city."],
+      ["La playa está lejos de mi casa.", "The beach is far from my house."],
+      ["El aeropuerto está lejos de aquí.", "The airport is far from here."],
+      ["Está muy lejos de su trabajo.", "It's very far from his work."],
+      ["La montaña está lejos de la ciudad.", "The mountain is far from the city."],
+      ["El campo está lejos de la carretera.", "The field is far from the road."]
+    ],
+    "entre": [
+      ["El parque está entre dos edificios.", "The park is between two buildings."],
+      ["El restaurante está entre la tienda y la biblioteca.", "The restaurant is between the store and the library."],
+      ["La estación de tren está entre dos calles.", "The train station is between two streets."],
+      ["Estaba sentado entre Juan y Pedro.", "I was sitting between Juan and Pedro."],
+      ["La escuela está entre el hospital y el supermercado.", "The school is between the hospital and the supermarket."],
+      ["El coche está entre los dos árboles.", "The car is between the two trees."]
+    ],
+    "a": [
+      ["Voy a la tienda.", "I am going to the store."],
+      ["Viajamos a España en verano.", "We travel to Spain in the summer."],
+      ["Vamos a la playa este fin de semana.", "We are going to the beach this weekend."],
+      ["Estoy a la espera de tu respuesta.", "I am waiting for your response."],
+      ["Voy a salir con mis amigos.", "I am going out with my friends."],
+      ["Vamos a cenar a las 8.", "We are going to have dinner at 8."]
+    ],
+    "con": [
+      ["Voy al cine con mis amigos.", "I go to the cinema with my friends."],
+      ["Ella vive con su familia.", "She lives with her family."],
+      ["Hablo con mi profesor.", "I talk with my teacher."],
+      ["Trabajo con personas muy amables.", "I work with very kind people."],
+      ["Voy a correr con mi perro.", "I am going to run with my dog."],
+      ["Estudia con mucho esfuerzo.", "She studies with a lot of effort."]
+    ],
+    "sin": [
+      ["No puedo vivir sin música.", "I can't live without music."],
+      ["Voy al trabajo sin coche.", "I go to work without a car."],
+      ["No salgas sin abrigo.", "Don't leave without a coat."],
+      ["Ella fue a la fiesta sin mí.", "She went to the party without me."],
+      ["No puedo hacer esto sin ayuda.", "I can't do this without help."],
+      ["Te quiero mucho, sin importar nada.", "I love you a lot, no matter what."]
+    ],
+    "ante": [
+      ["Estamos ante un gran desafío.", "We are facing a big challenge."],
+      ["El rey está ante su gente.", "The king is before his people."],
+      ["Había una multitud ante el escenario.", "There was a crowd in front of the stage."],
+      ["Ante la adversidad, debemos ser fuertes.", "In the face of adversity, we must be strong."],
+      ["Está ante un dilema importante.", "He is facing an important dilemma."],
+      ["Los niños juegan ante la iglesia.", "The children are playing in front of the church."]
+    ]
+  }
+  

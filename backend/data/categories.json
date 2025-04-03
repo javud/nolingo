@@ -1,0 +1,88 @@
+{
+    "categories": {
+      "nouns": [
+        ["persona", "person"],
+        ["hombre", "man"],
+        ["mujer", "woman"],
+        ["niño", "boy"],
+        ["niña", "girl"],
+        ["amigo/a", "friend"],
+        ["familia", "family"],
+        ["casa", "house"],
+        ["calle", "street"],
+        ["escuela", "school"]
+      ],
+      "verbs": [
+        ["ser", "to be"],
+        ["estar", "to be"],
+        ["tener", "to have"],
+        ["hacer", "to do, to make"],
+        ["poder", "to be able to"],
+        ["ir", "to go"],
+        ["ver", "to see"],
+        ["comer", "to eat"],
+        ["beber", "to drink"],
+        ["vivir", "to live"]
+      ],
+      "pronouns": [
+        ["yo", "I"],
+        ["tú", "you"],
+        ["él", "he"],
+        ["ella", "she"],
+        ["nosotros/as", "we"],
+        ["vosotros/as", "you all"],
+        ["ellos/as", "they"],
+        ["usted", "you"],
+        ["ustedes", "you all"]
+      ],
+      "adjectives": [
+        ["grande", "big"],
+        ["pequeño/a", "small"],
+        ["bueno/a", "good"],
+        ["malo/a", "bad"],
+        ["nuevo/a", "new"],
+        ["viejo/a", "old"],
+        ["bonito/a", "pretty, beautiful"],
+        ["feo/a", "ugly"],
+        ["feliz", "happy"],
+        ["triste", "sad"]
+      ],
+      "interrogatives": [
+        ["qué", "what"],
+        ["quién", "who"],
+        ["cuándo", "when"],
+        ["dónde", "where"],
+        ["por qué", "why"],
+        ["cómo", "how"],
+        ["cuanto", "how many, how much"],
+        ["cual", "what, which"],
+        ["que hora es", "what time is it"],
+        ["de quien", "whose"]
+      ],
+      "prepositions": [
+        ["en", "in"],
+        ["sobre", "on, about"],
+        ["bajo", "under"],
+        ["cerca de", "near"],
+        ["lejos de", "far from"],
+        ["entre", "between"],
+        ["a", "to, at"],
+        ["con", "with"],
+        ["sin", "without"],
+        ["ante", "before, in front of"]
+      ],
+      "phrases": [
+        ["hola", "hello, hi"],
+        ["gracias", "thank you"],
+        ["por favor", "please"],
+        ["como estas", "how are you"],
+        ["estoy bien", "I'm good"],
+        ["mucho gusto", "nice to meet you"],
+        ["adios", "goodbye"],
+        ["perdon", "excuse me"],
+        ["lo siento", "sorry, I'm sorry"],
+        ["me llama", "my name is"]
+      ]
+    }
+  }
+  

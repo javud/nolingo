@@ -1,0 +1,82 @@
+{
+    "persona": [
+      ["La persona es amable.", "The person is kind."],
+      ["Esa persona trabaja aquí.", "That person works here."],
+      ["Conozco a esa persona.", "I know that person."],
+      ["Una persona me habló de ti.", "A person spoke to me about you."],
+      ["Esa persona tiene una sonrisa brillante.", "That person has a bright smile."],
+      ["¿Conoces a la persona que está allí?", "Do you know the person who is there?"]
+    ],
+    "hombre": [
+      ["Veo a un hombre en la calle.", "I see a man on the street."],
+      ["El hombre es alto.", "The man is tall."],
+      ["Ese hombre es mi tío.", "That man is my uncle."],
+      ["Un hombre viejo pasa por aquí todos los días.", "An old man passes here every day."],
+      ["El hombre lleva una chaqueta verde.", "The man is wearing a green jacket."],
+      ["¿Quién es el hombre que te acompaña?", "Who is the man who accompanies you?"]
+    ],
+    "mujer": [
+      ["La mujer está en la tienda.", "The woman is in the store."],
+      ["La mujer lleva un vestido rojo.", "The woman is wearing a red dress."],
+      ["Esa mujer es muy simpática.", "That woman is very nice."],
+      ["Una mujer mayor me dio un consejo.", "An older woman gave me some advice."],
+      ["La mujer que canta es mi madre.", "The woman who sings is my mother."],
+      ["¿Viste a la mujer que estaba en la esquina?", "Did you see the woman who was at the corner?"]
+    ],
+    "niño": [
+      ["El niño juega en el parque.", "The boy plays in the park."],
+      ["El niño tiene un balón.", "The boy has a ball."],
+      ["Ese niño es mi hermano.", "That boy is my brother."],
+      ["El niño pequeño está llorando.", "The little boy is crying."],
+      ["Un niño de mi clase se lastimó.", "A boy from my class got hurt."],
+      ["¿Dónde está el niño con la camiseta roja?", "Where is the boy with the red shirt?"]
+    ],
+    "niña": [
+      ["La niña tiene una muñeca.", "The girl has a doll."],
+      ["La niña está en la escuela.", "The girl is at school."],
+      ["Esa niña canta bien.", "That girl sings well."],
+      ["La niña está aprendiendo a leer.", "The girl is learning to read."],
+      ["Una niña pequeña me sonrió en la tienda.", "A small girl smiled at me in the store."],
+      ["¿Conoces a la niña que juega en el parque?", "Do you know the girl who plays in the park?"]
+    ],
+    "amigo": [
+      ["Mi amigo es muy simpático.", "My friend is very nice."],
+      ["Mi amigo vive cerca de mi casa.", "My friend lives near my house."],
+      ["Tengo un amigo que toca la guitarra.", "I have a friend who plays the guitar."],
+      ["Mi mejor amigo se llama Juan.", "My best friend is called Juan."],
+      ["El amigo de mi hermana es muy divertido.", "My sister's friend is very funny."],
+      ["¿Quién es ese amigo que te acompaña?", "Who is that friend who is with you?"]
+    ],
+    "familia": [
+      ["Mi familia vive aquí.", "My family lives here."],
+      ["Mi familia es grande.", "My family is big."],
+      ["Voy de vacaciones con mi familia.", "I go on vacation with my family."],
+      ["Nuestra familia se junta todos los domingos.", "Our family gets together every Sunday."],
+      ["Mi familia tiene un perro y un gato.", "My family has a dog and a cat."],
+      ["¿Cómo está tu familia?", "How is your family?"]
+    ],
+    "casa": [
+      ["Nuestra casa es grande.", "Our house is big."],
+      ["Mi casa tiene un jardín.", "My house has a garden."],
+      ["Vivimos en una casa azul.", "We live in a blue house."],
+      ["La casa de mi abuela está en el campo.", "My grandmother's house is in the countryside."],
+      ["Esta casa tiene muchas habitaciones.", "This house has many rooms."],
+      ["¿Dónde está tu casa?", "Where is your house?"]
+    ],
+    "calle": [
+      ["La calle es muy larga.", "The street is very long."],
+      ["Vivo en esta calle.", "I live on this street."],
+      ["La calle está vacía por la noche.", "The street is empty at night."],
+      ["La calle principal está cerrada.", "The main street is closed."],
+      ["Mucha gente camina por esta calle.", "Many people walk on this street."],
+      ["¿Dónde está la calle de la tienda?", "Where is the street with the store?"]
+    ],
+    "escuela": [
+      ["La escuela es grande.", "The school is big."],
+      ["Voy a la escuela todos los días.", "I go to school every day."],
+      ["La escuela tiene muchas aulas.", "The school has many classrooms."],
+      ["La escuela está cerca de mi casa.", "The school is near my house."],
+      ["En la escuela enseñan matemáticas y ciencias.", "They teach math and science at school."],
+      ["¿Dónde está la escuela de música?", "Where is the music school?"]
+    ]
+  }  

@@ -74,19 +74,21 @@ function Practice() {
         <>
           <p>Translate the following to English:</p>
           <div className="wordTranslate" key={currentWord}>{currentWord}</div>
-          <input
-            autoFocus
-            type="text"
-            placeholder="Enter English translation..."
-            value={userGuess}
-            onChange={(e) => setUserGuess(e.target.value)}
-            onKeyDown={(e) => {
-                if (e.key === "Enter") {
-                  checkAnswer();
-                }
-              }}
-          />
-          <button className="cta-button" onClick={checkAnswer}>Submit</button>
+          <div className="searchAndButton small">
+            <input
+              autoFocus
+              type="text"
+              placeholder="Enter English translation..."
+              value={userGuess}
+              onChange={(e) => setUserGuess(e.target.value)}
+              onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    checkAnswer();
+                  }
+                }}
+            />
+            <button className="search-button" onClick={checkAnswer}>Check</button>
+          </div>
           {showSkip && <button className="cta-button-2" onClick={skipCheck}>Skip</button>}
           {feedback && <p className="feedback">{feedback}</p>}
         </>

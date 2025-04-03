@@ -1,0 +1,75 @@
+{
+    "yo": [
+      ["Yo soy estudiante.", "I am a student."],
+      ["Yo vivo en Chicago.", "I live in Chicago."],
+      ["Yo tengo un perro.", "I have a dog."],
+      ["Yo hablo español.", "I speak Spanish."],
+      ["Yo voy al gimnasio cada mañana.", "I go to the gym every morning."],
+      ["Yo quiero aprender a tocar la guitarra.", "I want to learn to play the guitar."]
+    ],
+    "tú": [
+      ["Tú eres mi mejor amigo.", "You are my best friend."],
+      ["Tú vas a la escuela todos los días.", "You go to school every day."],
+      ["¿Tú tienes hambre?", "Are you hungry?"],
+      ["Tú hablas muy rápido.", "You speak very fast."],
+      ["Tú vives en esta ciudad, ¿verdad?", "You live in this city, right?"],
+      ["Tú sabes mucho sobre tecnología.", "You know a lot about technology."]
+    ],
+    "él": [
+      ["Él es mi hermano.", "He is my brother."],
+      ["Él juega al fútbol los fines de semana.", "He plays soccer on the weekends."],
+      ["Él trabaja en una oficina.", "He works in an office."],
+      ["Él tiene una bicicleta nueva.", "He has a new bicycle."],
+      ["¿Él va al cine contigo?", "Is he going to the cinema with you?"],
+      ["Él no sabe nadar.", "He doesn't know how to swim."]
+    ],
+    "ella": [
+      ["Ella es una excelente cantante.", "She is an excellent singer."],
+      ["Ella estudia ingeniería.", "She studies engineering."],
+      ["Ella tiene una mascota pequeña.", "She has a small pet."],
+      ["¿Ella va a la fiesta?", "Is she going to the party?"],
+      ["Ella vive en el centro de la ciudad.", "She lives in the city center."],
+      ["Ella trabaja en una tienda de ropa.", "She works in a clothing store."]
+    ],
+    "nosotros/as": [
+      ["Nosotros somos amigos desde la infancia.", "We have been friends since childhood."],
+      ["Nosotros vamos de vacaciones a la playa.", "We are going on vacation to the beach."],
+      ["Nosotros comemos juntos todos los días.", "We eat together every day."],
+      ["Nosotros estudiamos en la misma universidad.", "We study at the same university."],
+      ["Nosotros hablamos español en casa.", "We speak Spanish at home."],
+      ["Nosotros jugamos al baloncesto los sábados.", "We play basketball on Saturdays."]
+    ],
+    "vosotros/as": [
+      ["Vosotros sois muy divertidos.", "You all are very fun."],
+      ["Vosotros vais a la fiesta esta noche.", "You all are going to the party tonight."],
+      ["¿Vosotros tenéis tareas para mañana?", "Do you all have homework for tomorrow?"],
+      ["Vosotros vivís en una casa grande.", "You all live in a big house."],
+      ["Vosotros coméis mucho pizza.", "You all eat a lot of pizza."],
+      ["¿Vosotros estudiáis en la misma clase?", "Do you all study in the same class?"]
+    ],
+    "ellos/as": [
+      ["Ellos son mis amigos.", "They are my friends."],
+      ["Ellos viven en el extranjero.", "They live abroad."],
+      ["Ellos trabajan en una empresa de tecnología.", "They work at a tech company."],
+      ["Ellos estudian juntos para los exámenes.", "They study together for exams."],
+      ["Ellos viajan por todo el mundo.", "They travel all over the world."],
+      ["Ellos tienen una mascota muy cariñosa.", "They have a very affectionate pet."]
+    ],
+    "usted": [
+      ["¿Usted sabe dónde está la estación?", "Do you know where the station is?"],
+      ["Usted tiene una cita importante hoy.", "You have an important appointment today."],
+      ["Usted necesita descansar.", "You need to rest."],
+      ["Usted habla muy bien inglés.", "You speak English very well."],
+      ["¿Usted quiere un café?", "Would you like a coffee?"],
+      ["Usted trabaja en el hospital, ¿verdad?", "You work at the hospital, right?"]
+    ],
+    "ustedes": [
+      ["Ustedes son muy amables.", "You all are very kind."],
+      ["¿Ustedes necesitan ayuda?", "Do you all need help?"],
+      ["Ustedes han estado trabajando mucho.", "You all have been working a lot."],
+      ["Ustedes tienen que llegar temprano.", "You all need to arrive early."],
+      ["Ustedes viven en una ciudad bonita.", "You all live in a beautiful city."],
+      ["Ustedes hablan español muy bien.", "You all speak Spanish very well."]
+    ]
+  }
+  

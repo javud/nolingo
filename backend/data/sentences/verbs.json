@@ -1,0 +1,82 @@
+{
+    "ser": [
+      ["Yo soy estudiante.", "I am a student."],
+      ["Él es mi amigo.", "He is my friend."],
+      ["Nosotros somos hermanos.", "We are brothers."],
+      ["Soy de España.", "I am from Spain."],
+      ["Ella es muy inteligente.", "She is very intelligent."],
+      ["Ellos son médicos.", "They are doctors."]
+    ],
+    "tener": [
+      ["Tengo un perro.", "I have a dog."],
+      ["Ella tiene un coche nuevo.", "She has a new car."],
+      ["Nosotros tenemos una casa grande.", "We have a big house."],
+      ["¿Tienes tiempo para ir al cine?", "Do you have time to go to the cinema?"],
+      ["Mi hermano tiene una bicicleta.", "My brother has a bicycle."],
+      ["Tenemos muchas cosas que hacer.", "We have many things to do."]
+    ],
+    "estar": [
+      ["Estoy en casa.", "I am at home."],
+      ["Ella está cansada.", "She is tired."],
+      ["Estamos felices de verte.", "We are happy to see you."],
+      ["¿Estás listo para salir?", "Are you ready to leave?"],
+      ["El clima está agradable hoy.", "The weather is nice today."],
+      ["Ellos están en la oficina.", "They are in the office."]
+    ],
+    "hacer": [
+      ["Voy a hacer ejercicio.", "I am going to exercise."],
+      ["Ella hace la cena todos los días.", "She makes dinner every day."],
+      ["Nosotros hacemos tareas juntos.", "We do homework together."],
+      ["¿Qué vas a hacer mañana?", "What are you going to do tomorrow?"],
+      ["Hicieron un gran trabajo.", "They did a great job."],
+      ["¿Puedes hacer eso?", "Can you do that?"]
+    ],
+    "poder": [
+      ["Yo puedo correr rápido.", "I can run fast."],
+      ["¿Puedes ayudarme?", "Can you help me?"],
+      ["Nosotros podemos ver una película.", "We can watch a movie."],
+      ["Él no puede venir hoy.", "He can't come today."],
+      ["¿Podemos ir al parque?", "Can we go to the park?"],
+      ["Ellos pueden hablar tres idiomas.", "They can speak three languages."]
+    ],
+    "ir": [
+      ["Voy al cine con mis amigos.", "I am going to the cinema with my friends."],
+      ["Ellos van a la tienda.", "They are going to the store."],
+      ["Vamos de vacaciones a la playa.", "We are going on vacation to the beach."],
+      ["¿Vas al trabajo en coche?", "Do you go to work by car?"],
+      ["Ella va a estudiar en el extranjero.", "She is going to study abroad."],
+      ["¿A dónde vas?", "Where are you going?"]
+    ],
+    "ver": [
+        ["Veo una película interesante.", "I see an interesting movie."],
+        ["Ellos ven el partido de fútbol.", "They watch the soccer game."],
+        ["¿Puedes ver la luna?", "Can you see the moon?"],
+        ["Vi a Juan en el centro comercial.", "I saw Juan at the mall."],
+        ["Nosotros vimos un concierto ayer.", "We saw a concert yesterday."],
+        ["¿Qué ves en el horizonte?", "What do you see on the horizon?"]
+    ],
+    "comer": [
+        ["Me gusta comer pizza.", "I like to eat pizza."],
+        ["Ella come muchas frutas.", "She eats a lot of fruits."],
+        ["¿Qué quieres comer?", "What do you want to eat?"],
+        ["Comí una ensalada para el almuerzo.", "I ate a salad for lunch."],
+        ["Vamos a comer juntos esta noche.", "We are going to eat together tonight."],
+        ["¿Te gustaría comer algo de postre?", "Would you like to eat something for dessert?"]
+    ],
+    "beber": [
+        ["Yo bebo agua todos los días.", "I drink water every day."],
+        ["Ellos beben jugo de naranja.", "They drink orange juice."],
+        ["¿Quieres beber algo?", "Do you want to drink something?"],
+        ["Bebí café esta mañana.", "I drank coffee this morning."],
+        ["Ella bebe té de hierbas.", "She drinks herbal tea."],
+        ["¿Qué prefieres beber, agua o jugo?", "What do you prefer to drink, water or juice?"]
+    ],
+    "vivir": [
+        ["Vivo en una ciudad grande.", "I live in a big city."],
+        ["Ella vive cerca de la playa.", "She lives near the beach."],
+        ["Nosotros vivimos en un apartamento.", "We live in an apartment."],
+        ["Vivo con mis padres.", "I live with my parents."],
+        ["Ellos viven en una casa de campo.", "They live in a countryside house."],
+        ["¿Dónde vives?", "Where do you live?"]
+    ]
+}

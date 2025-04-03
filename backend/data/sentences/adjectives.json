@@ -1,0 +1,83 @@
+{
+    "grande": [
+      ["La casa es grande.", "The house is big."],
+      ["Este perro es muy grande.", "This dog is very big."],
+      ["El edificio es grande y moderno.", "The building is big and modern."],
+      ["Tenemos un jardín grande en el patio.", "We have a big garden in the backyard."],
+      ["La ciudad es grande y bulliciosa.", "The city is big and noisy."],
+      ["Este árbol es muy grande.", "This tree is very big."]
+    ],
+    "pequeño/a": [
+      ["El gato es pequeño.", "The cat is small."],
+      ["Tengo una casa pequeña.", "I have a small house."],
+      ["Este cuarto es muy pequeño.", "This room is very small."],
+      ["La tienda es pequeña pero bonita.", "The store is small but cute."],
+      ["El coche de Juan es pequeño.", "Juan's car is small."],
+      ["Este libro es pequeño, fácil de llevar.", "This book is small, easy to carry."]
+    ],
+    "bueno/a": [
+      ["Este libro es muy bueno.", "This book is very good."],
+      ["El clima está muy bueno hoy.", "The weather is very good today."],
+      ["Es una persona muy buena.", "He/She is a very good person."],
+      ["El desayuno estaba buenísimo.", "The breakfast was very good."],
+      ["Es una idea buena para el proyecto.", "It's a good idea for the project."],
+      ["Tienes un corazón bueno.", "You have a good heart."]
+    ],
+    "malo/a": [
+      ["Este trabajo es malo.", "This job is bad."],
+      ["El clima está malo hoy.", "The weather is bad today."],
+      ["Es un mal estudiante.", "He/She is a bad student."],
+      ["Comí algo malo y me siento mal.", "I ate something bad and I feel sick."],
+      ["Esa película fue mala.", "That movie was bad."],
+      ["Es un lugar malo para vivir.", "It's a bad place to live."]
+    ],
+    "nuevo/a": [
+      ["Tengo un coche nuevo.", "I have a new car."],
+      ["Mi teléfono es nuevo.", "My phone is new."],
+      ["Este libro es nuevo.", "This book is new."],
+      ["Esa es una idea nueva.", "That is a new idea."],
+      ["Tengo una casa nueva.", "I have a new house."],
+      ["Este es un restaurante nuevo en la ciudad.", "This is a new restaurant in the city."]
+    ],
+    "viejo/a": [
+      ["El coche es viejo.", "The car is old."],
+      ["Mi abuela tiene una casa vieja.", "My grandmother has an old house."],
+      ["Este reloj es muy viejo.", "This watch is very old."],
+      ["Mi perro es viejo y lento.", "My dog is old and slow."],
+      ["Este edificio es muy viejo.", "This building is very old."],
+      ["El libro es viejo, pero interesante.", "The book is old, but interesting."]
+    ],
+    "bonito/a": [
+      ["La flor es muy bonita.", "The flower is very pretty."],
+      ["Tu vestido es bonito.", "Your dress is beautiful."],
+      ["La ciudad tiene muchos parques bonitos.", "The city has many beautiful parks."],
+      ["Es una pintura bonita.", "It's a beautiful painting."],
+      ["Ella tiene una sonrisa bonita.", "She has a pretty smile."],
+      ["Este paisaje es bonito.", "This landscape is beautiful."]
+    ],
+    "feo/a": [
+      ["El lugar es feo.", "The place is ugly."],
+      ["Esa camisa es fea.", "That shirt is ugly."],
+      ["El edificio es feo y viejo.", "The building is ugly and old."],
+      ["El perro tiene una cara fea.", "The dog has an ugly face."],
+      ["El diseño de la casa es feo.", "The design of the house is ugly."],
+      ["Ese cuadro es feo.", "That painting is ugly."]
+    ],
+    "feliz": [
+      ["Estoy muy feliz hoy.", "I am very happy today."],
+      ["Ella es una persona feliz.", "She is a happy person."],
+      ["Nosotros estamos felices juntos.", "We are happy together."],
+      ["Hoy es un día feliz.", "Today is a happy day."],
+      ["Me siento feliz por tu éxito.", "I feel happy for your success."],
+      ["Es feliz con su nueva casa.", "He/She is happy with their new house."]
+    ],
+    "triste": [
+      ["Estoy triste porque llueve.", "I am sad because it’s raining."],
+      ["Ella está triste por la noticia.", "She is sad about the news."],
+      ["Este final de película es muy triste.", "This movie’s ending is very sad."],
+      ["Me siento triste hoy.", "I feel sad today."],
+      ["Él está triste porque perdió el partido.", "He is sad because he lost the game."],
+      ["La canción me pone triste.", "The song makes me sad."]
+    ]
+  }
+  

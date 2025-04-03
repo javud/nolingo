@@ -141,7 +141,9 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: 0.3s;
-  animation: fadeIn3 0.3s ease;
+  animation: fadeIn3 0.5s ease;
+  animation-iteration-count: 1;
+  overflow-x: hidden;
 }
 
 .page.practice {
@@ -183,7 +185,7 @@ select {
 select:hover,
 select:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #9900ff;
   background: #e9ecef;
 }
 
@@ -223,39 +225,85 @@ ul li:hover {
   font-style: italic;
 }
 
+.searchAndButton {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  transition: 0.3s;
+  gap: 5px;
+}
+
+.searchAndButton.small {
+  max-width: 80%;
+  margin: auto;
+}
+
+.searchAndButton:focus-within {
+  outline: none;
+  border-color: #9900ff;
+}
+
 /* Search Bar */
 input {
   width: 85%;
   padding: 10px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
+  border: none;
   font-size: 16px;
-  margin-bottom: 10px;
+  transition: 0.3s;
 }
 
 input:focus {
   outline: none;
-  border-color: #007bff;
 }
 
-/* Autocomplete List */
-.autocomplete-list {
-  background: white;
-  border-radius: 6px;
+.search-button {
+  background: linear-gradient(90deg, #48009b, #007bff);
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease infinite;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s;  
+}
+
+.search-button:hover {
+  transform: scale(1.05);
+}
+
+.sentences {
+  margin-bottom: 20px;
+}
+
+.sentence {
+  border: 1px solid rgb(226, 226, 226);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-top: 5px;
-  text-align: left;
-  max-height: 150px;
-  overflow-y: auto;
+  background: #f7f7f7;
+  border-radius: 8px;
+  margin: 5px;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-.autocomplete-list li {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
+.clear-button {
+  background: linear-gradient(90deg, #767676, #e4e4e4);
+  background-size: 400% 400%;
+  animation: gradientBackground 10s ease infinite;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s;    
 }
 
-.autocomplete-list li:hover {
-  background: #f1f1f1;
+.clear-button:hover {
+  transform: scale(1.05);
 }
 
 /* Animation for Smooth List Items */
@@ -354,8 +402,8 @@ footer {
 }
 
 @keyframes fadeIn3 {
-  from { opacity: 0; transform: translateX(50%);}
-  to { opacity: 1; transform: translateX(0); }
+  from { opacity: 0;}
+  to { opacity: 1;}
 }
 
 .wordTranslate {

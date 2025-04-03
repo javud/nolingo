@@ -1,0 +1,83 @@
+{
+    "qué": [
+      ["¿Qué es esto?", "What is this?"],
+      ["¿Qué quieres comer?", "What do you want to eat?"],
+      ["¿Qué hora es?", "What time is it?"],
+      ["¿Qué estás haciendo?", "What are you doing?"],
+      ["¿Qué película vamos a ver?", "What movie are we going to watch?"],
+      ["¿Qué necesitas para el proyecto?", "What do you need for the project?"]
+    ],
+    "quién": [
+      ["¿Quién es tu mejor amigo?", "Who is your best friend?"],
+      ["¿Quién vino a la fiesta?", "Who came to the party?"],
+      ["¿Quién está en la puerta?", "Who is at the door?"],
+      ["¿Quién te llamó?", "Who called you?"],
+      ["¿Quién es responsable de esto?", "Who is responsible for this?"],
+      ["¿Quién va a ganar el partido?", "Who is going to win the game?"]
+    ],
+    "cuándo": [
+      ["¿Cuándo es tu cumpleaños?", "When is your birthday?"],
+      ["¿Cuándo vamos a la playa?", "When are we going to the beach?"],
+      ["¿Cuándo llega el tren?", "When does the train arrive?"],
+      ["¿Cuándo es la reunión?", "When is the meeting?"],
+      ["¿Cuándo te vas de vacaciones?", "When are you going on vacation?"],
+      ["¿Cuándo empieza la película?", "When does the movie start?"]
+    ],
+    "dónde": [
+      ["¿Dónde vives?", "Where do you live?"],
+      ["¿Dónde está el baño?", "Where is the bathroom?"],
+      ["¿Dónde trabajas?", "Where do you work?"],
+      ["¿Dónde compraste eso?", "Where did you buy that?"],
+      ["¿Dónde están mis llaves?", "Where are my keys?"],
+      ["¿Dónde vamos a cenar?", "Where are we going to have dinner?"]
+    ],
+    "por qué": [
+      ["¿Por qué llegaste tarde?", "Why did you arrive late?"],
+      ["¿Por qué estás triste?", "Why are you sad?"],
+      ["¿Por qué no vienes conmigo?", "Why don't you come with me?"],
+      ["¿Por qué no me llamaste?", "Why didn't you call me?"],
+      ["¿Por qué no me dijiste?", "Why didn't you tell me?"],
+      ["¿Por qué es importante estudiar?", "Why is it important to study?"]
+    ],
+    "cómo": [
+      ["¿Cómo te llamas?", "What is your name?"],
+      ["¿Cómo estás?", "How are you?"],
+      ["¿Cómo llego a la estación?", "How do I get to the station?"],
+      ["¿Cómo se hace este ejercicio?", "How do you do this exercise?"],
+      ["¿Cómo puedo ayudarte?", "How can I help you?"],
+      ["¿Cómo funciona esto?", "How does this work?"]
+    ],
+    "cuanto": [
+      ["¿Cuánto cuesta este libro?", "How much does this book cost?"],
+      ["¿Cuántos años tienes?", "How old are you?"],
+      ["¿Cuántos amigos tienes?", "How many friends do you have?"],
+      ["¿Cuánto tiempo necesitas?", "How much time do you need?"],
+      ["¿Cuánto pesa esto?", "How much does this weigh?"],
+      ["¿Cuánto falta para llegar?", "How much longer until we arrive?"]
+    ],
+    "cual": [
+      ["¿Cuál es tu color favorito?", "What is your favorite color?"],
+      ["¿Cuál prefieres, el rojo o el azul?", "Which do you prefer, red or blue?"],
+      ["¿Cuál es la respuesta correcta?", "What is the correct answer?"],
+      ["¿Cuál es tu película favorita?", "What is your favorite movie?"],
+      ["¿Cuál es tu nombre?", "What is your name?"],
+      ["¿Cuál de estos prefieres?", "Which one of these do you prefer?"]
+    ],
+    "que hora es": [
+      ["¿Qué hora es?", "What time is it?"],
+      ["¿Qué hora es en Londres?", "What time is it in London?"],
+      ["¿Qué hora es cuando empieza la reunión?", "What time is it when the meeting starts?"],
+      ["¿Qué hora es en este reloj?", "What time is it on this clock?"],
+      ["¿Qué hora es para el evento?", "What time is it for the event?"],
+      ["¿Qué hora es en tu ciudad?", "What time is it in your city?"]
+    ],
+    "de quien": [
+      ["¿De quién es esta bicicleta?", "Whose bicycle is this?"],
+      ["¿De quién es este libro?", "Whose book is this?"],
+      ["¿De quién es la casa en la esquina?", "Whose house is on the corner?"],
+      ["¿De quién son estas llaves?", "Whose keys are these?"],
+      ["¿De quién es el coche rojo?", "Whose red car is this?"],
+      ["¿De quién es la idea de este proyecto?", "Whose idea is this project?"]
+    ]
+  }
+  

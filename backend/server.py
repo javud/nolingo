@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import heapq
-import random
+import json
+import os
 
 app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests for frontend communication
@@ -79,93 +80,44 @@ class Trie:
             node = node.children[char]
         return node.is_end_of_word
 
-# Populate Tries
+# Load categories.json
+with open("data/categories.json", "r", encoding="utf-8") as file:
+    categories_data = json.load(file)
+
+# Extract the 'categories' dictionary and convert lists to tuples
 categories = {
-    "nouns": [
-        ("persona", "person"), 
-        ("hombre", "man"), 
-        ("mujer", "woman"), 
-        ("niño", "boy"), 
-        ("niña", "girl"), 
-        ("amigo/a", "friend"), 
-        ("familia", "family"), 
-        ("casa", "house"), 
-        ("calle", "street"), 
-        ("escuela", "school")
-    ],
-    "verbs": [
-        ("ser", "to be"), 
-        ("estar", "to be"), 
-        ("tener", "to have"), 
-        ("hacer", "to do, to make"), 
-        ("poder", "to be able to"), 
-        ("ir", "to go"), 
-        ("ver", "to see"), 
-        ("comer", "to eat"), 
-        ("beber", "to drink"), 
-        ("vivir", "to live")
-    ],
-    "pronouns": [
-        ("yo", "I"), 
-        ("tú", "you"), 
-        ("él", "he"), 
-        ("ella", "she"), 
-        ("nosotros/as", "we"), 
-        ("vosotros/as", "you all"), 
-        ("ellos/as", "they"), 
-        ("usted", "you"), 
-        ("nosotros/as", "we"), 
-        ("ustedes", "you all")
-    ],
-    "adjectives": [
-        ("grande", "big"), 
-        ("pequeño/a", "small"), 
-        ("bueno/a", "good"), 
-        ("malo/a", "bad"), 
-        ("nuevo/a", "new"), 
-        ("viejo/a", "old"), 
-        ("bonito/a", "pretty, beautiful"), 
-        ("feo/a", "ugly"), 
-        ("feliz", "happy"), 
-        ("triste", "sad")
-    ],
-    "interrogatives": [
-        ("qué", "what"), 
-        ("quién", "who"), 
-        ("cuándo", "when"), 
-        ("dónde", "where"), 
-        ("por qué", "why"), 
-        ("cómo", "how"), 
-        ("cuanto", "how many"), 
-        ("cual", "what"), 
-        ("que hora es", "what time is it"), 
-        ("de quien", "whose")
-    ],
-    "prepositions": [
-        ("en", "in"), 
-        ("sobre", "on, about"), 
-        ("bajo", "under"), 
-        ("cerca de", "near"), 
-        ("lejos de", "far from"), 
-        ("entre", "between"), 
-        ("a", "to, at"), 
-        ("con", "with"), 
-        ("sin", "without"), 
-        ("ante", "before, in front of")
-    ],
-    "phrases": [
-        ("hola", "hello, hi"), 
-        ("gracias", "thank you"), 
-        ("por favor", "please"), 
-        ("como estas", "how are you"), 
-        ("estoy bien", "I'm good"), 
-        ("mucho gusto", "nice to meet you"), 
-        ("adios", "goodbye"), 
-        ("perdon", "excuse me"), 
-        ("lo siento", "sorry"), 
-        ("me llama", "my name is")
-    ]
+    category: [tuple(pair) for pair in words] 
+    for category, words in categories_data["categories"].items()
 }
+
+# Extract words from categories
+sentences = {}
+
+for category, word_list in categories_data["categories"].items():
+    for word, _ in word_list:
+        normalized_word = word.lower()
+        sentences[normalized_word] = []
+
+# Load sentences for each category
+for category in categories_data["categories"]:
+    file_path = f"data/sentences/{category}.json"
+
+    if os.path.exists(file_path):
+        with open(file_path, "r", encoding="utf-8") as file:
+            category_sentences = json.load(file)
+
+            for key in category_sentences:
+                normalized_key = key.lower()
+
+                # Try direct match
+                if normalized_key in sentences:
+                    sentences[normalized_key] = category_sentences[key]
+                else:
+                    # Fuzzy matching for slight variations (e.g., "me llama" vs. "me llamo")
+                    for word in sentences:
+                        if normalized_key.startswith(word) or word.startswith(normalized_key):
+                            sentences[word] = category_sentences[key]
+                            break
 
 tries = {category: Trie() for category in categories}
 
@@ -218,6 +170,16 @@ def get_translation():
         return jsonify({"translation": {"word": spanish_word, "translation": english_translation}})
     
     return jsonify({"error": "Invalid word or index"}), 404
+
+@app.route('/get_sentences', methods=['GET'])
+def get_sentences():
+    word = request.args.get('word', '').lower()
+    for category, trie in tries.items():
+        if trie.exists(word):
+            word_sentences = sentences.get(word, [])
+            if word_sentences:
+                return jsonify({"sentences": word_sentences})
+    return jsonify({"error": "No sentences found for the word"}), 404
 
 @app.route("/category")
 def get_category():

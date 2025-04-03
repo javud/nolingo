@@ -1,0 +1,83 @@
+{
+    "hola": [
+      ["¡Hola! ¿Cómo estás?", "Hello! How are you?"],
+      ["Hola, me llamo Ana.", "Hello, my name is Ana."],
+      ["Hola a todos.", "Hello everyone."],
+      ["¡Hola! ¿Qué tal?", "Hello! How's it going?"],
+      ["Hola, ¿cómo te va?", "Hello, how's it going for you?"],
+      ["¡Hola, buenos días!", "Hello, good morning!"]
+    ],
+    "gracias": [
+      ["Gracias por tu ayuda.", "Thank you for your help."],
+      ["Muchas gracias.", "Thank you very much."],
+      ["Gracias por venir.", "Thanks for coming."],
+      ["Te agradezco mucho.", "I really appreciate it."],
+      ["Gracias por tu paciencia.", "Thank you for your patience."],
+      ["Gracias por todo.", "Thank you for everything."]
+    ],
+    "por favor": [
+      ["¿Me puedes ayudar, por favor?", "Can you help me, please?"],
+      ["Pásame la sal, por favor.", "Pass me the salt, please."],
+      ["Cierra la puerta, por favor.", "Close the door, please."],
+      ["¿Me das un vaso de agua, por favor?", "Can you give me a glass of water, please?"],
+      ["Escucha bien, por favor.", "Listen carefully, please."],
+      ["Repite eso, por favor.", "Repeat that, please."]
+    ],
+    "como estas": [
+      ["¿Cómo estás?", "How are you?"],
+      ["Hola, ¿cómo estás hoy?", "Hello, how are you today?"],
+      ["¿Cómo estás? ¿Todo bien?", "How are you? Everything good?"],
+      ["¡Hola! ¿Cómo estás? Hace tiempo que no te veía.", "Hello! How are you? Long time no see."],
+      ["¿Cómo estás, amigo?", "How are you, friend?"],
+      ["¿Cómo estás después de la clase?", "How are you after the class?"]
+    ],
+    "estoy bien": [
+      ["Estoy bien, gracias.", "I am fine, thank you."],
+      ["¡Gracias por preguntar! Estoy bien.", "Thanks for asking! I'm fine."],
+      ["Estoy bien, solo un poco cansado.", "I'm fine, just a little tired."],
+      ["Estoy bien, ¿y tú?", "I'm good, and you?"],
+      ["Estoy bien, todo va bien.", "I'm good, everything is fine."],
+      ["Estoy bien, no te preocupes.", "I'm good, don't worry."]
+    ],
+    "mucho gusto": [
+      ["Mucho gusto en conocerte.", "Nice to meet you."],
+      ["Mucho gusto, soy Carlos.", "Nice to meet you, I'm Carlos."],
+      ["Mucho gusto, espero que nos llevemos bien.", "Nice to meet you, I hope we get along well."],
+      ["¡Mucho gusto! Es un placer conocerte.", "Nice to meet you! It's a pleasure to meet you."],
+      ["Mucho gusto, soy tu nuevo compañero.", "Nice to meet you, I am your new colleague."],
+      ["Mucho gusto en verte.", "Nice to see you."]
+    ],
+    "adios": [
+      ["¡Adiós! Nos vemos mañana.", "Goodbye! See you tomorrow."],
+      ["Adiós, cuídate.", "Goodbye, take care."],
+      ["Adiós, hasta pronto.", "Goodbye, see you soon."],
+      ["Adiós, que tengas un buen día.", "Goodbye, have a good day."],
+      ["Nos vemos, adiós.", "See you, goodbye."],
+      ["Adiós, fue un placer verte.", "Goodbye, it was a pleasure seeing you."]
+    ],
+    "perdon": [
+      ["Perdón, no quise molestarte.", "Excuse me, I didn’t mean to bother you."],
+      ["Perdón, ¿puedes repetir eso?", "Excuse me, can you repeat that?"],
+      ["Perdón, ¿me puedes ayudar?", "Excuse me, can you help me?"],
+      ["Perdón, estoy llegando tarde.", "Sorry, I’m running late."],
+      ["Perdón, ¿dónde está el baño?", "Excuse me, where is the bathroom?"],
+      ["Perdón, no entendí bien.", "Sorry, I didn’t understand well."]
+    ],
+    "lo siento": [
+      ["Lo siento mucho por lo que pasó.", "I’m really sorry for what happened."],
+      ["Lo siento, no fue mi intención.", "I’m sorry, it wasn’t my intention."],
+      ["Lo siento, ¿me puedes perdonar?", "I’m sorry, can you forgive me?"],
+      ["Lo siento, cometí un error.", "I’m sorry, I made a mistake."],
+      ["Lo siento por el retraso.", "Sorry for the delay."],
+      ["Lo siento si te hice daño.", "I’m sorry if I hurt you."]
+    ],
+    "me llama": [
+      ["Me llama Juan.", "My name is Juan."],
+      ["Me llama María.", "My name is María."],
+      ["Me llama Pedro, y tú?", "My name is Pedro, and you?"],
+      ["Me llama Laura y soy de México.", "My name is Laura, and I’m from Mexico."],
+      ["Me llama Ana, mucho gusto.", "My name is Ana, nice to meet you."],
+      ["Me llama Roberto, soy tu nuevo vecino.", "My name is Roberto, I’m your new neighbor."]
+    ]
+  }
+  
