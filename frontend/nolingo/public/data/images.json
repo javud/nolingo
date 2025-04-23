@@ -1,0 +1,20 @@
+{
+  "persona": "person.jpg",
+  "hombre": "hombre.jpg",
+  "mujer": "mujer.jpg",
+  "niño": "nino.jpg",
+  "niña": "nina.jpg",
+  "amigo/a": "amigo.jpeg",
+  "familia":"familia.jpg",
+  "casa":"casa.jpg",
+  "calle":"calle.jpg",
+  "escuela":"escuela.jpg",
+  "grande":"big.jpg",
+  "entre":"between.jpg",
+  "sobre":"sobre.jpeg",
+  "feliz":"happy.jpeg",
+  "triste":"sad.jpeg",
+  "pequeño/a":"small.jpeg",
+  "bueno/a":"good.png",
+  "malo/a":"bad.png"
+}

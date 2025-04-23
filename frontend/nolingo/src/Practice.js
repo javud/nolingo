@@ -9,7 +9,22 @@ function Practice() {
   const [correctCount, setCorrectCount] = useState(0);
   const [skipCount, setSkipCount] = useState(0);
   const [wordIndex, setWordIndex] = useState(0);
+  const [imagesData, setImagesData] = useState({});
 
+  useEffect(() => {
+    const loadImagesData = async () => {
+      try {
+        const response = await fetch("/data/images.json"); // ✅ Corrected path
+        const data = await response.json();
+        setImagesData(data);
+      } catch (error) {
+        console.error("Error loading images:", error);
+      }
+    };
+  
+    loadImagesData();
+  }, []);
+  
   useEffect(() => {
     const fetchNextWord = async () => {
         try {
@@ -73,7 +88,17 @@ function Practice() {
       {currentWord ? (
         <>
           <p>Translate the following to English:</p>
-          <div className="wordTranslate" key={currentWord}>{currentWord}</div>
+          <div className="wordTranslate" key={currentWord}>
+          {imagesData[currentWord] && (
+            <img
+            src={`/images/${imagesData[currentWord]}`}
+            style={{ width: "180px", height: "180px" }}
+            alt={currentWord}
+            className="wordImage"
+            />
+          )}
+            <p>{currentWord}</p>
+          </div>
           <div className="searchAndButton small">
             <input
               autoFocus
