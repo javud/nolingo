@@ -2,18 +2,15 @@
 body {
   margin: 0;
   font-family: "Poppins", Arial, sans-serif;
-  background-color: #f4f4f4;
+  background: linear-gradient(90deg, #48009b, #007bff);
+  background-size: 400% 400%;
   overscroll-behavior: none;
 }
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, #48009b, #007bff);
   color: white;
   padding: 15px 0;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  background-size: 400% 400%;
-  animation: gradientBackground 10s ease infinite;
 }
 
 /* Keyframes for the background color animation */
@@ -114,6 +111,23 @@ body {
 }
 
 .cta-button-2:hover {
+  transform: scale(1.1);
+}
+
+.cta-button-3 {
+  color: white;
+  background-color: #c0c0c0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: block;
+  margin: 0 auto;
+}
+
+.cta-button-3:hover {
   transform: scale(1.1);
 }
 
@@ -388,7 +402,6 @@ footer {
   padding: 5px;
   color: white;
   border-radius: 10px;
-  background: #9299ff;
   background-size: 400% 400%;
   animation: gradientBackground 10s ease infinite;
   width: fit-content;
@@ -406,6 +419,11 @@ footer {
   to { opacity: 1;}
 }
 
+@keyframes fadeIn4 {
+  from { opacity: 0; filter: blur(5px);}
+  to { opacity: 1; filter: blur(0);}
+}
+
 .wordTranslate {
   display: block;
   font-weight: bold;
@@ -416,4 +434,13 @@ footer {
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.currentWord {
+  margin: 0;
+}
+.wordImage {
+  border-radius: 10px;
+  margin-bottom: 0;
+  animation: fadeIn4 0.5s;
 }
