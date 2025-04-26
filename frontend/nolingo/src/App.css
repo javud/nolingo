@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-family: "Poppins", Arial, sans-serif;
   background: linear-gradient(90deg, #48009b, #007bff);
-  background-size: 400% 400%;
   overscroll-behavior: none;
 }
 
