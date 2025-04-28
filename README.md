@@ -9,9 +9,9 @@ This application was built so that beginners who speak little to no Spanish coul
 Main features: Learn and Practice tabs, learn words by category through sentences, Images for nouns, prepositions, and adjectives, translation exercises.
 
 **Frontend:**
-React (JavaScript) - offers a clean, simple template to get started with building an app. Also, very easy to deploy on static-render applications like Netlify and Vercel
+React (JavaScript) - offers a clean, simple template to get started with building an app. Also, very easy to deploy on static-render applications like Netlify and Vercel. Libraries used: BrowserRouter, CSSTransition, ReactDOM, useState hook, useEffect hook.
 
-**Backend**: Flask (Python) - simple and lightweight framework, only requires 2 imports in existing Python file. API endpoints are very easy to define and use
+**Backend**: Flask (Python) - simple and lightweight framework, only requires 2 imports in existing Python file. API endpoints are very easy to define and use. Didn't need a heavy framework like Django (support for Object-Relational Mapper) for this project.
 
 **Main Features:**
 1. Learn: Word dictionary with over 70+ common conversational words and phrases and 400+ AI-generated sentences.
