@@ -10,18 +10,36 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * information about the project 
 * 
 * keep it short and sweet
+
+- This application was built so that it could be used to learn a language, specifically spanish. The problem we wanted to solve was how to give people who may be starting out learning spanish a platform so that they could practice at their leisure. To do this we created an app that gives the user control and support during their learning experience, from giving sample sentences to picture hints.
 -->
 
 
 ## How to use this project<!-- Required -->
 <!-- 
-* Here you may add information about how 
-* 
-* and why to use this project.
+
+- There are 2 ways to use this application
+
+1. Netlify link (best method)
+    - https://nolingo.netlify.app/
+    - Use this link to be redirected to our deployed app on netlify, 
+    where you can experience the full app with ease
+
+2. Two terminal method
+    - Open the code folder and then create 2 terminal windows (one for backend, and the other for frontend)
+    - For the backend: cd backend, then type python server.py and click enter
+    - For the frontend: cd frontend/nolingo, then type npm start and click enter
+
 -->
--
--
--
+
+## Team Contributions <!-- Required -->
+<!-- 
+* Javid - 
+
+* Syed - Project Manager, I created workflow plans and held team meetings, was repsonsible for creating and managing ideas and testing new features for the application. I made sure that progress was being made and contributed to helping Javid in developing the frontend. 
+
+* Fatima - 
+-->
 
 
 ## Demo<!-- Required -->
@@ -116,9 +134,9 @@ Use this repository to store your code and collaborate throughout all FGP stages
 
 ## Contact<!-- Required -->
 <!-- 
-* add your email and contact info here
-* 
-* 
+* Javid Uddin - muddi7@uic.edu - 
+* Syed Muqtadeer - smuqt2@uic.edu - 
+* Fatima Jassim - - 
 -->
 
 
