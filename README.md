@@ -145,7 +145,7 @@ There are two ways to use this application:
 
 - **Javid Uddin** – muddi7@uic.edu
 - **Syed Muqtadeer** – smuqt2@uic.edu
-- **Fatima Jassim** – [contact info needed]
+- **Fatima Jassim** – fjass2@uic.edu
 
 ---
 
