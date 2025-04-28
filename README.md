@@ -6,6 +6,8 @@
 
 This application was built so that beginners who speak little to no Spanish could learn fundamentals to conversate with others. The problem we wanted to solve was how to give people the ability to practice their Spanish skills in a fun and inutitive way -- on their own time. To solve this we created Nolingo, an app that gives you control and support during your learning experience, from giving sample sentences to picture hints, all to make sure that words and sentences stick with you the next time you're speaking to someone in Spanish.
 
+Main features: Learn and Practice tabs, learn words by category through sentences, Images for nouns, prepositions, and adjectives, translation exercises.
+
 **Frontend:**
 React (JavaScript) - offers a clean, simple template to get started with building an app. Also, very easy to deploy on static-render applications like Netlify and Vercel
 
