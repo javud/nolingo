@@ -1,72 +1,69 @@
-# Full Stack Group Project Template
-This repository is a template for your Full Stack Group Project. It includes a basic project structure, along with Markdown examples for weekly meeting notes and the project README.  
-
-Use this repository to store your code and collaborate throughout all FGP stages, starting from FGP3.  
-
-**Note:** This layout is an example. The official requirements for your project README will be provided later in the course.  
+# Nolingo: Learn Spanish Easily
 
 ## About<!-- Required -->
-<!-- 
-* information about the project 
-* 
-* keep it short and sweet
 
-- This application was built so that it could be used to learn a language, specifically spanish. The problem we wanted to solve was how to give people who may be starting out learning spanish a platform so that they could practice at their leisure. To do this we created an app that gives the user control and support during their learning experience, from giving sample sentences to picture hints.
--->
+This application was built so that beginners who speak little to no Spanish could learn fundamentals to conversate with others. The problem we wanted to solve was how to give people the ability to practice their Spanish skills in a fun and inutitive way -- on their own time. To solve this we created Nolingo, an app that gives you control and support during your learning experience, from giving sample sentences to picture hints, all to make sure that words and sentences stick with you the next time you're speaking to someone in Spanish.
 
-
-## How to use this project<!-- Required -->
 ---
 
 ## How to use this project
 
-There are two ways to use this application:
+The latest version of this project is deployed for free on Netlify (frontend) and PythonAnywhere (backend).
+You can try it out here: https://nolingo.netlify.app/
 
-1. **Netlify link (recommended method)**  
-   - [NoLingo App on Netlify](https://nolingo.netlify.app/)  
-   - Click the link to experience the full app easily.
+Alternatively, if you want to use the project locally or play around with the code, the easiest way is by doing the following:
 
-2. **Local Two-Terminal Method**  
-   - Open the code folder and create two terminal windows (one for backend, one for frontend).
-   - Backend:  
-     ```bash
-     cd backend
-     python server.py
-     ```
-   - Frontend:  
-     ```bash
-     cd frontend/nolingo
-     npm start
-     ```
+1. Open up an existing or new folder in VS Code
+2. Clone the repo (click on the green button titled Code and choose your method). For additional information on how to clone repositories locally, [read this article from GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+### FRONTEND/APP (REACT) -- PART 1
+1. Create a new Terminal (Terminal > New Terminal)
+2. In the terminal, do one of the following:
+- If it's your first-time running the code, paste these commands to go into the frontend folder & get set-up:
+```bash
+cd frontend/nolingo
+npm install
+npm start
+```
+- If you've already ran the frontend successfully before, you can skip the `npm install` step (since you already have the necessary modules installed on your computer):
+```bash
+cd frontend/nolingo
+npm start
+```
+This will get the frontend (React app) running on your localhost. Now move onto Step 2.
+### BACKEND/SERVER (FLASK) -- PART 2
+1. Create a new Terminal (Terminal > New Terminal). IMPORTANT: Keep your old Terminal running, do NOT close it.
+2. In the new terminal, do one of the following:
+- If it's your first-time running the code, paste these commands to go into the backend folder & get set-up:
+```bash
+cd backend
+pip install -r requirements.txt
+flask --app server run
+```
+- If you've already ran the backend successfully before, you can skip the `pip install` step (since you already have the necessary modules installed on your computer):
+```bash
+cd backend
+flask --app server run
+```
+This will get the backend (Flask server) running on your localhost (different port). You can reload the localhost page in your web browser and it should properly fetch information from the API endpoints defined in server.py.
 
 ---
 
 ## Team Contributions <!-- Required -->
 
-- **Javid** - 
-- **Syed** - Project Manager. Created workflow plans, held team meetings, managed ideas and testing for the app. Assisted Javid with frontend development.
-- **Fatima** - 
+- **Javid U.** - Frontend Developer. Worked on creating fluid animations, clean responsive design, and mobile compatability. Defined API endpoints in server.py and fetched information using React's fetch API.
+- **Syed M.** - Project Manager. Created workflow plans, held team meetings, managed ideas and testing for the app. Assisted Javid with frontend development.
+- **Fatima J.** - Backend Developer. Worked on defining the classes and methods for the key data structures used in the project (tries & priority queues). 
 
 ---
 
-
 ## Demo<!-- Required -->
-<!-- 
-* You can add a demo here GH supports images/ GIFs/videos 
-* 
-* It's recommended to use GIFs as they are more dynamic
--->
-
+### Video Trailer
+[![Nolingo: YouTube Ad](https://img.youtube.com/vi/KInzGWBXhd4/0.jpg)](https://youtu.be/KInzGWBXhd4)
+- ADD GIF 1 HERE
+- ADD GIF 2 HERE
+---
 
 ## Table of Contents<!-- Optional -->
-<!-- 
-* This section is optional, yet having a contents table 
-* helps keeping your README readable and more professional.
-* 
-* If you are not familiar with HTML, no worries we all been there :D 
-* Review learning resources to create anchor links. 
--->
-
 
 <dev align="center">
     <table align="center">
@@ -87,65 +84,35 @@ There are two ways to use this application:
     </table>
 </dev>
 
-
 <!-- - Use this html element to create a back to top button. -->
 <p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
 
-
-## Project Roadmap <!-- Optional --> <!-- add learning_Rs-->
-<!-- 
-* Add this section in case the project has different phases
-* 
-* Under production or will be updated.
--->
-
-
-<!-- - Use this html element to create a back to top button. -->
-<p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
-
-
-
-## Documentation<!-- Optional -->
-<!-- 
-* You may add any documentation or Wikis here
-* 
-* 
--->
-
+---
 
 ## Contributors<!-- Required -->
-<!-- 
-* Without contribution we wouldn't have open source. 
-* 
-* Generate github contributors Image here https://contrib.rocks/preview?repo=angular%2Fangular-ja
--->
-
+This repository contains contributions from:
+- [javiduddin](github.com/javiduddin)
+- [smuqtadeer](github.com/smuqtadeer)
+- [fjassim](github.com/fjassim)
 
 ## Acknowledgments<!-- Optional -->
-<!-- 
-* Credit where it's do 
-* 
-* Feel free to share your inspiration sources, Stackoverflow questions, github repos, tools etc.
--->
-
-
-<!-- - Use this html element to create a back to top button. -->
-<p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
-
+The idea for Nolingo was inspired by Duolingo (not affiliated nor endorsed). Contextual sentences were generated by OpenAI's Large Language Model [ChatGPT](https://chat.openai.com/chat). Data structures were derived from UIC'S CS 351 Advanced Data Structures course taught by [Shanon Reckinger](https://cs.uic.edu/profiles/shanon-reckinger/).
 
 ## Feedback<!-- Required -->
-<!-- 
-* You can add contacts information like your email and social media account 
-* 
-* Also it's common to add some PR guidance.
--->
+To provide feedback on the repo (issues, comments, improvements), please Connect with us via LinkedIn.
+
+- **Javid Uddin** – [LinkedIn](https://linkedin.com/in/javiduddin)
+- **Syed Muqtadeer** – [LinkedIn](https://www.linkedin.com/in/syed-muqtadeer-59b289221/)
+- **Fatima Jassim** – [LinkedIn](https://www.linkedin.com/in/fatima-jassim/)
 
 ## Contact<!-- Required -->
----
 
 - **Javid Uddin** – muddi7@uic.edu
 - **Syed Muqtadeer** – smuqt2@uic.edu
 - **Fatima Jassim** – fjass2@uic.edu
+
+<!-- - Use this html element to create a back to top button. -->
+<p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
 
 ---
 
@@ -156,6 +123,27 @@ There are two ways to use this application:
 * 
 * check this website for an easy reference https://choosealicense.com/)
 -->
+MIT License
+
+Copyright (c) [2025] [Nolingo]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 <!-- - Use this html element to create a back to top button. -->
