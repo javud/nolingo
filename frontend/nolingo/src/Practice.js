@@ -10,6 +10,7 @@ function Practice() {
   const [skipCount, setSkipCount] = useState(0);
   const [wordIndex, setWordIndex] = useState(0);
   const [imagesData, setImagesData] = useState({});
+  const [showHint, setShowHint] = useState(false);
 
   useEffect(() => {
     const loadImagesData = async () => {
@@ -88,16 +89,17 @@ function Practice() {
       {currentWord ? (
         <>
           <p>Translate the following to English:</p>
+          {imagesData[currentWord] && <button className="cta-button-3" onClick={() => setShowHint(!showHint)}>Toggle Hint</button>}
           <div className="wordTranslate" key={currentWord}>
-          {imagesData[currentWord] && (
+          {showHint && imagesData[currentWord] && (
             <img
             src={`/images/${imagesData[currentWord]}`}
-            style={{ width: "180px", height: "180px" }}
+            style={{ width: "auto", height: "150px" }}
             alt={currentWord}
             className="wordImage"
             />
           )}
-            <p>{currentWord}</p>
+            <p className="currentWord">{currentWord}</p>
           </div>
           <div className="searchAndButton small">
             <input
