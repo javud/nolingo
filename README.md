@@ -12,14 +12,18 @@ Main features: Learn and Practice tabs, learn words by category through sentence
 React (JavaScript) - offers a clean, simple template to get started with building an app. Also, very easy to deploy on static-render applications like Netlify and Vercel. Libraries used: BrowserRouter, CSSTransition, ReactDOM, useState hook, useEffect hook.
 
 **Backend**: Flask (Python) - simple and lightweight framework, only requires 2 imports in existing Python file. API endpoints are very easy to define and use. Didn't need a heavy framework like Django (support for Object-Relational Mapper) for this project.
+It is faster, as we created a lightweight app instead of a heavier one so Flask is more suited for it, and 
+we wanted API support in our web app. 
+Trie used for autofill in search feature to help user get the word and its sentences in the Learn tab.
+Priority queue used to sort the order of words taught to user.
+
 
 **Main Features:**
 1. Learn: Word dictionary with over 70+ common conversational words and phrases and 400+ AI-generated sentences.
 2. Practice: Interactivate learning tool where you can check your understanding of Spanish terms. Offers image hints if desired.
 3. Auto-complete: Type in the start to any word or spanish phrase in Nolingo's dictionary and see all results pop-up instantly without have to type the entire term in or hitting the search button.
 
-Chose to use Flask because it is faster, we created a lightweight app instead of a heavier one so Flask is more suited for it, and 
-we wanted API support in our web app. No REACT libraries were used.
+
 ---
 
 ## How to use this project
