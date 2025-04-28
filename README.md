@@ -16,30 +16,38 @@ Use this repository to store your code and collaborate throughout all FGP stages
 
 
 ## How to use this project<!-- Required -->
-<!-- 
+---
 
-- There are 2 ways to use this application
+## How to use this project
 
-1. Netlify link (best method)
-    - https://nolingo.netlify.app/
-    - Use this link to be redirected to our deployed app on netlify, 
-    where you can experience the full app with ease
+There are two ways to use this application:
 
-2. Two terminal method
-    - Open the code folder and then create 2 terminal windows (one for backend, and the other for frontend)
-    - For the backend: cd backend, then type python server.py and click enter
-    - For the frontend: cd frontend/nolingo, then type npm start and click enter
+1. **Netlify link (recommended method)**  
+   - [NoLingo App on Netlify](https://nolingo.netlify.app/)  
+   - Click the link to experience the full app easily.
 
--->
+2. **Local Two-Terminal Method**  
+   - Open the code folder and create two terminal windows (one for backend, one for frontend).
+   - Backend:  
+     ```bash
+     cd backend
+     python server.py
+     ```
+   - Frontend:  
+     ```bash
+     cd frontend/nolingo
+     npm start
+     ```
+
+---
 
 ## Team Contributions <!-- Required -->
-<!-- 
-* Javid - 
 
-* Syed - Project Manager, I created workflow plans and held team meetings, was repsonsible for creating and managing ideas and testing new features for the application. I made sure that progress was being made and contributed to helping Javid in developing the frontend. 
+- **Javid** - 
+- **Syed** - Project Manager. Created workflow plans, held team meetings, managed ideas and testing for the app. Assisted Javid with frontend development.
+- **Fatima** - 
 
-* Fatima - 
--->
+---
 
 
 ## Demo<!-- Required -->
@@ -133,11 +141,13 @@ Use this repository to store your code and collaborate throughout all FGP stages
 -->
 
 ## Contact<!-- Required -->
-<!-- 
-* Javid Uddin - muddi7@uic.edu - 
-* Syed Muqtadeer - smuqt2@uic.edu - 
-* Fatima Jassim - - 
--->
+---
+
+- **Javid Uddin** – muddi7@uic.edu
+- **Syed Muqtadeer** – smuqt2@uic.edu
+- **Fatima Jassim** – [contact info needed]
+
+---
 
 
 ## License<!-- Optional -->
