@@ -5,7 +5,16 @@
 ## About<!-- Required -->
 
 This application was built so that beginners who speak little to no Spanish could learn fundamentals to conversate with others. The problem we wanted to solve was how to give people the ability to practice their Spanish skills in a fun and inutitive way -- on their own time. To solve this we created Nolingo, an app that gives you control and support during your learning experience, from giving sample sentences to picture hints, all to make sure that words and sentences stick with you the next time you're speaking to someone in Spanish.
-Main features: Learn and Practice tabs, learn words by category through sentences, Images for nouns, prepositions, and adjectives, translation exercises
+
+**Frontend:**
+React (JavaScript) - offers a clean, simple template to get started with building an app. Also, very easy to deploy on static-render applications like Netlify and Vercel
+
+**Backend**: Flask (Python) - simple and lightweight framework, only requires 2 imports in existing Python file. API endpoints are very easy to define and use
+
+**Main Features:**
+1. Learn: Word dictionary with over 70+ common conversational words and phrases and 400+ AI-generated sentences.
+2. Practice: Interactivate learning tool where you can check your understanding of Spanish terms. Offers image hints if desired.
+3. Auto-complete: Type in the start to any word or spanish phrase in Nolingo's dictionary and see all results pop-up instantly without have to type the entire term in or hitting the search button.
 
 Chose to use Flask because it is faster, we created a lightweight app instead of a heavier one so Flask is more suited for it, and 
 we wanted API support in our web app. No REACT libraries were used.

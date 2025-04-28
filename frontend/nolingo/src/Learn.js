@@ -12,7 +12,7 @@ function Lessons() {
   const [words, setWords] = useState([]);
 
   useEffect(() => {
-    fetch(`https://mou1234.pythonanywhere.com/category?name=${selectedCategory}`)
+    fetch(`http://127.0.0.1:5000/category?name=${selectedCategory}`)
       .then((res) => res.json())
       .then((data) => setWords(data.words || []))
       .catch(() => setWords([]));
@@ -25,7 +25,7 @@ function Lessons() {
     }
 
     try {
-      const response = await fetch(`https://mou1234.pythonanywhere.com/suggestions?prefix=${prefix}`);
+      const response = await fetch(`http://127.0.0.1:5000/suggestions?prefix=${prefix}`);
       const data = await response.json();
       setSuggestions(data.suggestions || []);
     } catch {
@@ -42,7 +42,7 @@ function Lessons() {
     setSuggestions([]);
 
     try {
-      const response = await fetch(`https://mou1234.pythonanywhere.com/search?word=${word}`);
+      const response = await fetch(`http://127.0.0.1:5000/search?word=${word}`);
       const data = await response.json();
 
       if (response.ok) {
@@ -74,7 +74,7 @@ function Lessons() {
     }
 
     try {
-      const response = await fetch(`https://mou1234.pythonanywhere.com/get_sentences?word=${word}`);
+      const response = await fetch(`http://127.0.0.1:5000/get_sentences?word=${word}`);
       const data = await response.json();
 
       if (response.ok) {
