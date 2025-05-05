@@ -11,6 +11,15 @@ function Practice() {
   const [wordIndex, setWordIndex] = useState(0);
   const [imagesData, setImagesData] = useState({});
   const [showHint, setShowHint] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    if (currentWord == null) {
+      setIsLoading(true);
+    } else {
+      setIsLoading(false);
+    }
+  }, [currentWord]);
 
   useEffect(() => {
     const loadImagesData = async () => {
@@ -127,6 +136,15 @@ function Practice() {
         <button className="cta-button" onClick={reset}>Review again</button>
         </>
       )}
+
+      {isLoading &&
+        <div className="loader">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      }
+
     </div>
   );
 }

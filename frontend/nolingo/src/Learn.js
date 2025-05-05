@@ -10,6 +10,15 @@ function Lessons() {
   const [categories] = useState(["nouns", "verbs", "pronouns", "adjectives", "interrogatives", "prepositions", "phrases"]);
   const [selectedCategory, setSelectedCategory] = useState("nouns");
   const [words, setWords] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    if (words.length === 0) {
+      setIsLoading(true);
+    } else {
+      setIsLoading(false);
+    }
+  }, [words]);
 
   useEffect(() => {
     fetch(`http://127.0.0.1:5000/category?name=${selectedCategory}`)
@@ -153,6 +162,14 @@ function Lessons() {
           </li>
         ))}
       </ul>
+
+      {isLoading &&
+        <div className="loader">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      }
     </div>
   );
 }

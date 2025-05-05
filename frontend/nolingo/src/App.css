@@ -443,3 +443,38 @@ footer {
   margin-bottom: 0;
   animation: fadeIn4 0.5s;
 }
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 70px;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #2718cc;
+  animation: bounce 0.5s infinite ease-in-out alternate;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateY(-25px);
+    opacity: 1;
+  }
+}
