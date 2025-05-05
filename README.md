@@ -1,6 +1,7 @@
 <img src="https://nolingo.netlify.app/nolingo-logo.png" alt="nolingo-logo" width="200"/>
 
 # Nolingo: Learn Spanish Easily
+Demo available here 👉 https://nolingo.netlify.app
 
 ## About<!-- Required -->
 
