@@ -81,10 +81,10 @@ This will get the backend (Flask server) running on your localhost (different po
 [![Nolingo: YouTube Ad](https://img.youtube.com/vi/KInzGWBXhd4/0.jpg)](https://youtu.be/KInzGWBXhd4)
 
 ### Learn Feature (GIF)
-<img src="https://github.com/University-of-Illinois-Chicago/fgp-sfj/blob/main/learnDemo.gif" alt="learn-feature-gif" width="500"/>
+<img src="https://raw.githubusercontent.com/javud/nolingo/main/learnDemo.gif" alt="learn-feature-gif" width="500"/>
 
 ### Practice Feature (GIF)
-<img src="https://github.com/University-of-Illinois-Chicago/fgp-sfj/blob/main/practiceDemo.gif" alt="practice-feature-gif" width="500"/>
+<img src="https://raw.githubusercontent.com/javud/nolingo/main/practiceDemo.gif" alt="practice-feature-gif" width="500"/>
 
 ---
 
